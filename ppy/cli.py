@@ -30,11 +30,12 @@ def main():
     args = parser.parse_args()
     _version_callback(args)
 
-    if args.file_name and args.file_name[-3:] == ".py":
-        MangeFile().create_file_py(args.file_name)
-    else:
+    if args.file_name:
         match args.file_name:
             case "hello.py":
                 MangeFile().create_file_hello()
             case _:
-                print("PPython Basic @ppybasic_python 🐍")
+                if args.file_name[-3:] == ".py":
+                    MangeFile().create_file_py(args.file_name)
+                else:
+                    print("PPython Basic @ppybasic_python 🐍")
