@@ -3,7 +3,7 @@ Library for PPython Basic @twitter.com/ppybasic_python
 
 # Installation
 ```
-pip install 
+pip install git://github.com/PPythonBasic/ppython_for_teach.git@master
 ```
 
 # Feature
