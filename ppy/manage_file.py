@@ -10,7 +10,7 @@ class MangeFile:
             f.write('print("Hello, World")')
 
     def create_file_convert_money(self):
-        with open("convert_money.py", "w") as f:
+        with open("convert_money.py", "w", encoding="utf-8") as f:
             f.write(
                 """
 def main():
