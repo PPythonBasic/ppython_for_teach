@@ -2,7 +2,7 @@
 # rptodo/__init__.py
 
 __app_name__ = "ppy ppybasic_python 🏓"
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 (
     SUCCESS,
