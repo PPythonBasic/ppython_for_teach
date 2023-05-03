@@ -41,3 +41,5 @@ def main():
                     MangeFile().create_file_py(args.file_name)
                 else:
                     print("PPython Basic @ppybasic_python 🐍")
+    else:
+        print("PPython Basic @ppybasic_python 🐍")
