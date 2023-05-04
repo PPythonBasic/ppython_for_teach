@@ -32,7 +32,7 @@ def main():
 
     if args.file_name:
         match args.file_name:
-            case "convert_money":
+            case "hello.py":
                 MangeFile().create_file_hello()
             case "convert_money.py":
                 MangeFile().create_file_convert_money()
