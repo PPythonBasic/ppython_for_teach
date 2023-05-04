@@ -11,6 +11,10 @@ setup_args = dict(
     [console_scripts]
     ppy=ppy.cli:main
     """,
-    exclude_package_data={"": ["assets/*"]},
+    # Explicitly specify the packages to include
+    packages=["ppy"],
+    # Exclude the 'assets' directory from the package data
+    package_data={"ppy": ["*"], "": ["LICENSE"]},
+    exclude_package_data={"ppy": ["assets/*"]},
 )
 setuptools.setup(**setup_args)
